@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DAP EQ Preset Guide</title>
+    <title>FiiO M21 EQ Preset Guide</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,7 +66,7 @@
 
     <div class="container mx-auto p-4 md:p-8">
         <header class="text-center mb-8">
-            <h1 class="text-3xl md:text-4xl font-bold" style="color: var(--text-header);">DAP EQ Preset Guide</h1>
+            <h1 class="text-3xl md:text-4xl font-bold" style="color: var(--text-header);">FiiO M21 EQ Preset Guide</h1>
             <p class="mt-2" style="color: var(--text-secondary);">Optimal EQ curves based on audio science for various music genres.</p>
         </header>
 
@@ -96,7 +96,7 @@
 
                     <!-- EQ Settings Table -->
                     <div>
-                        <h3 class="text-xl font-semibold mb-4" style="color: var(--text-header);">DAP Settings</h3>
+                        <h3 class="text-xl font-semibold mb-4" style="color: var(--text-header);">FiiO M21 Settings</h3>
                         <div class="overflow-x-auto">
                             <table class="min-w-full text-left">
                                 <thead style="background-color: var(--bg-light);">
@@ -176,6 +176,15 @@
                     { freq: 100, gain: 1.0, q: 0.7 },
                     { freq: 3000, gain: -0.5, q: 2.0 },
                     { freq: 10000, gain: 1.5, q: 0.8 }
+                ]
+            },
+            "Reggae": {
+                description: "Focuses on a deep, powerful bassline and the characteristic off-beat 'skank'. This curve creates warmth and rhythmic clarity.",
+                settings: [
+                    { freq: 70, gain: 4.0, q: 0.9 },
+                    { freq: 300, gain: -2.0, q: 1.4 },
+                    { freq: 2000, gain: 1.5, q: 1.8 },
+                    { freq: 8000, gain: 2.0, q: 1.5 }
                 ]
             },
             "R&B": {
